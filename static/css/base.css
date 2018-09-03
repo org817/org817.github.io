@@ -37,7 +37,7 @@
 		line-height: 1; }
 	ol, ul {
       	padding-left:40px;
-		list-style: circle; }
+		list-style: 'circle'; }
 	blockquote, q {
 		quotes: none; }
 	blockquote:before, blockquote:after,
