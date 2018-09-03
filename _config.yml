@@ -1,0 +1,27 @@
+highlighter: rouge
+markdown: kramdown
+rdiscount:
+  extensions: [smart]
+permalink: :title.html
+paginate: 5
+plugins: [jekyll-paginate]
+port: 4000
+safe: true
+url: http://org817.github.io
+author: Rocku Oh
+
+# edit this section with your information
+# jekyller.github.io - all contents run on /vitae/
+# for a normal use at the base of the server change it to "/"
+baseurl: /
+title: Rocku Oh's CV
+name: Rocku Oh
+email: org817@unist.ac.kr
+email_full: mailto:org817@unist.ac.kr
+website: https://github.com/org817/portfolio
+website_full: https://github.com/org817/portfolio
+github: org817
+tel: +82 10 3471 3511
+
+# needed for travis-ci build
+exclude: [vendor]
