@@ -10,12 +10,11 @@ safe: true
 url: http://org817.github.io
 author: Rocku Oh
 
-# edit this section with your information
-# jekyller.github.io - all contents run on /vitae/
-# for a normal use at the base of the server change it to "/"
 baseurl: /
 title: Rocku Oh's CV
 name: Rocku Oh
+description: Ph.D Candidate in Finance (Ulsan National Institute of Science and Technology)
+interest: Financial Engineering and Data analytics by Machine Learning and Data Mining
 email: org817@unist.ac.kr
 email_full: mailto:org817@unist.ac.kr
 website: https://github.com/org817/portfolio
