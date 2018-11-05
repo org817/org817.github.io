@@ -22,5 +22,6 @@ website_full: https://github.com/org817/portfolio
 github: org817
 tel: +82 10 3471 3511
 
+g-analytics : UA-128686774-1
 # needed for travis-ci build
 exclude: [vendor]
