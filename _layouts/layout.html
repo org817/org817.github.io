@@ -28,12 +28,12 @@
         <h1>{{ site.name }}</h1>
         <p><em>{{ site.description }}</em></p>
         <p><em>{{ site.interest }}</em></p>
-        <p><a href="{{ site.website_full }}">Portfolio</a></p>
+        <p><a href="{{ site.website_full }}" onclick="ga('send','event','github_portfolio_button','click','bib');">Portfolio</a></p>
         <p>        
             <p>{{ site.tel }}</p><br/>
             <a href="{{ site.email_full }}">{{ site.email }}</a><br/>
-            <a href="https://github.com/{{ site.github }}" onclick="ga('send','event','github_portfolio_button','click','bib');"><i class="fa fa-github"></i> Github</a><br/>
-            <a href="https://www.linkedin.com/in/rockuoh" onclick="ga('send','event','linked_button','click','bib');><i class="fa fa-linkedin"></i> Linkedin</a>
+            <a href="https://github.com/{{ site.github }}" onclick="ga('send','event','github_button','click','bib');"><i class="fa fa-github"></i> Github</a><br/>
+            <a href="https://www.linkedin.com/in/rockuoh" onclick="ga('send','event','linkedin_button','click','bib');"><i class="fa fa-linkedin"></i> Linkedin</a>
         </p>
     </header>
     <div class="thirteen columns clearfix">
